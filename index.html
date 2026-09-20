@@ -43,7 +43,7 @@ async function lookup(){
 const address =
 document.getElementById("address").value;
 
-const apiKey = "PASTE_GOOGLE_CIVIC_KEY_HERE";
+const apiKey = civicinfo.googleapis.com;
 
 const url =
 `https://www.googleapis.com/civicinfo/v2/representatives?address=${encodeURIComponent(address)}&key=${apiKey}`;
